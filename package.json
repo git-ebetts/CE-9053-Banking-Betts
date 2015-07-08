@@ -1,0 +1,21 @@
+{
+  "name": "bank-account",
+  "version": "1.0.0",
+  "description": "simple banking app",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "jasmine-core": "^2.3.4",
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.12.37",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-story-reporter": "^0.3.1",
+    "phantomjs": "^1.9.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": " \"jasmine-node spec/ --color --watch **/*.js --autotest --captureExceptions --verbose\""
+  },
+  "author": "",
+  "license": "ISC"
+}
