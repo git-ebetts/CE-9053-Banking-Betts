@@ -1,4 +1,4 @@
-  // module.exports = BankAccount;
+  module.exports = BankAccount;
   
   function BankAccount(config) {
   this.accountId=config.accountId;
@@ -17,6 +17,7 @@
     },
 
     balance: function() {
+      console.log(this.balance);
       if(_.isNaN(this.balance)){
       throw("balance must be a number");
       } else if (this.balance < 0) {

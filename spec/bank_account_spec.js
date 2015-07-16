@@ -1,4 +1,4 @@
-// var BankAccount = require("../app/bank_account.js");
+var BankAccount = require("../app/bank_account.js");
 
 
 describe("BankAccount", function(){
